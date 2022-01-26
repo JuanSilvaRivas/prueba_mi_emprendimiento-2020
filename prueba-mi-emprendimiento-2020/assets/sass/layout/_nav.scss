@@ -1,0 +1,43 @@
+.navbar {
+    background-color: $black;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    
+  &__container {
+    display: flex;
+    align-items: center;
+    font-family: $poppinsBold;
+   
+  }
+  &__item {
+    list-style: none;
+    padding:1rem;
+  }
+  &__link{
+      text-decoration: none;
+      color:$white;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  &__logo {
+    &--size {
+        width: 3rem;
+        padding: 1rem;    
+    }
+  }
+}
+
+.bar-btn{
+  font-size: $xx-large;
+  
+}
+
+.nav__input{
+  display: none;
+}
+
+
